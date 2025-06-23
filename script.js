@@ -74,5 +74,5 @@ for( i= 0; i < 5; i++){
     } else if(playRound().includes("lose")) {
         computerCounter++;
     }
-    console.log(computerCounter, humanCounter);
+    console.log('computer score: '+computerCounter,'human score: ' + humanCounter);
 }
